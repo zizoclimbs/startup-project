@@ -1,0 +1,106 @@
+.checkbox-label {
+  box-shadow: -2px -2px 5px white, 3px 3px 5px rgb(0 0 0 / 10%);
+  border: 0;
+  background: #f8f9fc;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+input[type="checkbox"]:checked~.checkbox-label {
+  box-shadow: inset -2px -2px 5px white, inset 3px 3px 5px rgb(0 0 0 / 10%);
+  color: $brand-color;
+}
+
+.form-control {
+  // override sharepoint styles
+  border: 2px solid $grey-200 !important;
+  padding: 6px 12px !important;
+
+  &.disabled {
+    background-color: $input-disabled-bg;
+    border-color: $input-disabled-border-color;
+  }
+}
+
+.select-group {
+  position: relative;
+  cursor: pointer;
+
+  //   option:checked  {
+  //       font-weight: bold;
+  //   }
+
+  &::after {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+
+    @include when-inside-ltr {
+      right: 10px;
+    }
+
+    @include when-inside-rtl {
+      left: 10px;
+    }
+  }
+
+  @include caret(down);
+
+  // &::after {
+  //     content: '\f078';
+  //     font-family: 'FontAwesome';
+  //     font-weight: 900;
+  //     position: absolute;
+  //     top: 50%;
+  //     transform: translateY(-50%);
+  //     pointer-events: none;
+  //     @include when-inside-ltr {
+  //         right: 10px;
+  //     }
+
+  //     @include when-inside-rtl {
+  //         left: 10px;
+  //     }
+  // }
+}
+
+// .mat-select-arrow {
+//     border: 0 !important;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+
+//     &::after {
+//         content: '\f078';
+//         font-family: 'Font Awesome 5 Free';
+//         font-weight: 900;
+//         pointer-events: none;
+//     }
+// }
+
+.input-group {
+  label {
+    font-size: 1rem;
+
+    @include when-inside-ltr {
+      margin-left: 8.5px !important;
+    }
+
+    @include when-inside-rtl {
+      margin-right: 8.5px !important;
+    }
+  }
+
+  .form-check-input {
+    position: static;
+    margin-left: 0;
+    margin-top: 0.6rem;
+  }
+}

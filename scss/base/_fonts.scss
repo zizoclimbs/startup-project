@@ -1,0 +1,94 @@
+// -----------------------------------------------------------------------------
+// This file contains all @font-face declarations, if any.
+// -----------------------------------------------------------------------------
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: font('HelvNeue35_W1G.eot');
+    src: font('HelvNeue35_W1G.eot?#iefix') format('embedded-opentype'),
+        font('HelvNeue35_W1G.woff2') format('woff2'),
+        font('HelvNeue35_W1G.woff') format('woff'),
+        font('HelvNeue35_W1G.ttf') format('truetype');
+    font-weight: lighter;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: font('HelvNeue45_W1G.eot');
+    src: font('HelvNeue45_W1G.eot?#iefix') format('embedded-opentype'),
+        font('HelvNeue45_W1G.woff2') format('woff2'),
+        font('HelvNeue45_W1G.woff') format('woff'),
+        font('HelvNeue45_W1G.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: font('HelvNeue55_W1G.eot');
+    src: font('HelvNeue55_W1G.eot?#iefix') format('embedded-opentype'),
+        font('HelvNeue55_W1G.woff2') format('woff2'),
+        font('HelvNeue55_W1G.woff') format('woff'),
+        font('HelvNeue55_W1G.ttf') format('truetype');
+    font-weight: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: font('HelvNeue65_W1G.eot');
+    src: font('HelvNeue65_W1G.eot?#iefix') format('embedded-opentype'),
+        font('HelvNeue65_W1G.woff2') format('woff2'),
+        font('HelvNeue65_W1G.woff') format('woff'),
+        font('HelvNeue65_W1G.ttf') format('truetype');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: font('HelvNeue75_W1G.eot');
+    src: font('HelvNeue75_W1G.eot?#iefix') format('embedded-opentype'),
+        font('HelvNeue75_W1G.woff2') format('woff2'),
+        font('HelvNeue75_W1G.woff') format('woff'),
+        font('HelvNeue75_W1G.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue AR';
+    src: font('HelveticaNeueAR-45Light.eot');
+    src: font('HelveticaNeueAR-45Light.eot?#iefix') format('embedded-opentype'),
+        font('HelveticaNeueAR-45Light.woff2') format('woff2'),
+        font('HelveticaNeueAR-45Light.woff') format('woff'),
+        font('HelveticaNeueAR-45Light.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue AR';
+    src: font('HelveticaNeueAR-55Roman.eot');
+    src: font('HelveticaNeueAR-55Roman.eot?#iefix') format('embedded-opentype'),
+        font('HelveticaNeueAR-55Roman.woff2') format('woff2'),
+        font('HelveticaNeueAR-55Roman.woff') format('woff'),
+        font('HelveticaNeueAR-55Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue AR';
+    src: font('HelveticaNeueAR-75Bold.eot');
+    src: font('HelveticaNeueAR-75Bold.eot?#iefix') format('embedded-opentype'),
+        font('HelveticaNeueAR-75Bold.woff2') format('woff2'),
+        font('HelveticaNeueAR-75Bold.woff') format('woff'),
+        font('HelveticaNeueAR-75Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

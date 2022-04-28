@@ -1,0 +1,42 @@
+/**
+ * Basic typography style for copy text
+ */
+
+body {
+    color: $text-color;
+    @include when-inside-ltr {
+      font: normal 75% / 1.4 $text-font-stack;
+    }
+    
+    @include when-inside-rtl {
+      font: normal 75% / 1.4 $text-ar-font-stack;
+    }
+}
+
+// html {
+//   @include when-inside-ltr {
+//     font: normal 75% / 1.4 $text-font-stack;
+//   }
+  
+//   @include when-inside-rtl {
+//     font: normal 75% / 1.4 $text-ar-font-stack;
+//   }
+// }
+
+body {
+  color: $text-color;
+  // font: inherit;
+}
+
+// Extra large devices (large desktops, 1600px and up)
+@include media-breakpoint-up(xl) {
+  body {
+    @include when-inside-ltr {
+      font: normal 87.5% / 1.4 $text-font-stack;
+    }
+
+    @include when-inside-rtl {
+      font: normal 87.5% / 1.4 $text-ar-font-stack;
+    }
+  }
+}

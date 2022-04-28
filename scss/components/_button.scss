@@ -1,0 +1,43 @@
+.button-group {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.btn {
+  @include button-size(10px, 17px, 1rem, 0);
+
+  +.btn {
+    @include when-inside-ltr {
+      margin-left: 17px;
+    }
+
+    @include when-inside-rtl {
+      margin-right: 17px;
+    }
+  }
+
+  &.PopClose {
+    position: static;
+    &::after {
+      display: none !important;
+    }
+  }
+}
+
+.btn-primary {
+  @include button-variant($primary, $primary, $white, $primary-hover, $primary-hover, $white, $disabled-background: $mid-grey, $disabled-border: $mid-grey, $disabled-color: $white);
+
+  &:visited {
+    color: $white;
+  }
+}
+
+.btn-outline-secondary {
+  @include button-outline-variant($secondary);
+
+  &:visited {
+    color: $secondary;
+  }
+}

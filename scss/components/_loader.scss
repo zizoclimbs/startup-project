@@ -1,0 +1,25 @@
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s ease-out;
+
+    img {
+        width: 110px;
+        height: 110px;
+    }
+
+    &.loaded {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
