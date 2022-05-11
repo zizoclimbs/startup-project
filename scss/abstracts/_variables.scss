@@ -83,9 +83,10 @@ $breakpoints: (
 /// @type String
 /// @example scss - When using a CDN
 ///   $base-url: 'http://cdn.example.com/assets/';
-// $base-url: '/assets/'; // Local
-$base-url: '/Style%20Library/GSM/Angular/.../.../assets/'; // Production
-$fonts-url: '/Style%20Library/';
+$base-url: '/assets/'; // Local
+// $base-url: '/Style%20Library/GSM/Angular/.../.../assets/'; // Production
+$fonts-url: '/assets/'; // Local
+// $fonts-url: '/Style%20Library/'; // Production
 
 /// Bootstrap
 /// @type Input
