@@ -4,27 +4,28 @@
  
  html {
   &[dir='ltr'] {
-    font: normal 75% / 1.4 $text-font-stack;
+    font: normal 75% / 1.4 $text-font-stack !important;
   }
   
   &[dir='rtl'] {
-    font: normal 75% / 1.4 $text-ar-font-stack;
+    font: normal 75% / 1.4 $text-ar-font-stack !important;
   }
 }
 
 body {
    color: $text-color;
+   font: inherit !important;
 }
 
 // Extra large devices (large desktops, 1600px and up)
 @include media-breakpoint-up(lg) {
  html {
    &[dir='ltr'] {
-     font: normal 87.5% / 1.4 $text-font-stack;
+     font: normal 87.5% / 1.4 $text-font-stack !important;
    }
 
    &[dir='rtl'] {
-     font: normal 87.5% / 1.4 $text-ar-font-stack;
+     font: normal 87.5% / 1.4 $text-ar-font-stack !important;
    }
  }
 }
