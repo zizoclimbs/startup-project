@@ -14,6 +14,7 @@ $code-font-stack: 'Courier New';
 /// Copy text color
 /// @type Color
 $text-color: black;
+$brand-text-color: #FF6600;
 
 /// Main brand color
 /// @type Color
@@ -21,7 +22,7 @@ $brand-color:   #FF7900;
 $primary-hover: #c15800;
 $primary:       #FF7900;
 $secondary:     black;
-$success:       #50BE87;
+$success:       #32C832;
 $info:          #4BB4E6;
 $warning:       #FFD200;
 $danger:        #CD3C14;
@@ -38,14 +39,14 @@ $purple:        #A885D8;
 $cyan:          #4BB4E6;
 $orange:        #FF7900;
 $grey-200:      #ccc;
-$gray-400:      #D6D6D6;
+$gray-400:      #EEE;
 $gray-600:      #8F8F8F;
 $gray-800:      #595959;
 $info-color:    #527EDB;
 
 /// Light grey
 /// @type Color
-$light-grey:    #D6D6D6;
+$light-grey:    #EEE;
 
 /// Medium grey
 /// @type Color
@@ -94,6 +95,7 @@ $input-bg: transparent;
 $input-border-radius: 0;
 $form-check-input-border-radius: 0;
 $input-border-width: 2px;
+$form-check-input-border: 2px solid #CCC;
 $input-border-color: $grey-200;
 $input-font-weight: bold;
 $input-padding-y: 0.375rem;
@@ -114,6 +116,11 @@ $btn-line-height: 1rem;
 $alert-border-radius: 0;
 $alert-background: transparent;
 $alert-border-width: 2px;
+$alert-bg-scale: -100%;
+$alert-border-scale: 0%;
+$alert-color-scale: 100%;
+$alert-padding-y: 15px;
+$alert-padding-x: 20px;
 
 /// @type Dropdown
 $dropdown-border-radius: 0;
@@ -140,3 +147,20 @@ $card-border-color: $grey-200;
 $modal-content-border-radius: 0;
 $modal-header-border-width: 0;
 $modal-footer-border-width: 0;
+$btn-close-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='13.314' height='13.313'><path data-name='Path 292' d='m9.486 6.656 3.533-3.534a1 1 0 0 0 0-1.415L11.607.292a1 1 0 0 0-1.414 0L6.658 3.827 3.119.292a1 1 0 0 0-1.414 0L.291 1.706a1 1 0 0 0 0 1.415l3.536 3.534-3.533 3.537a1 1 0 0 0 0 1.414l1.414 1.414a1 1 0 0 0 1.414 0l3.536-3.538 3.535 3.538a1 1 0 0 0 1.414 0l1.412-1.413a1 1 0 0 0 0-1.414Z' fill-rule='evenodd'/></svg>");
+$btn-close-opacity: 1;
+
+/// @type Nav Tabs
+$nav-tabs-border-width: 2px;
+$nav-tabs-border-color: black;
+$nav-tabs-border-radius: 0;
+$nav-tabs-link-active-border-color: black;
+$nav-tabs-link-hover-border-color: transparent;
+$nav-tabs-link-active-color: black;
+$nav-link-hover-color: #FF6600;
+$nav-link-font-weight: bold;
+$nav-link-font-size: 1rem;
+
+/// @type Tables
+$table-striped-order: even;
+$table-striped-bg: #EEE;
