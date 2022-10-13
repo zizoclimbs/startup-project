@@ -1,52 +1,21 @@
-// $AdminTool-palette: (50: #ffefe0,
-//   100: #ffd7b3,
-//   200: #ffbc80,
-//   300: #ffa14d,
-//   400: #ff8d26,
-//   500: #ff7900,
-//   600: #ff7100,
-//   700: #ff6600,
-//   800: #ff5c00,
-//   900: #ff4900,
-//   A100: #ffffff,
-//   A200: #fff5f2,
-//   A400: #ffcebf,
-//   A700: #ffbaa6,
-//   // ... continues to 900
-//   contrast: (50: rgba(black, 0.87),
-//     100: rgba(black, 0.87),
-//     200: rgba(black, 0.87),
-//     300: white,
-//     // ... continues to 900
-//   ));
-
-// // Custom Theming for Angular Material
-// // For more information: https://material.angular.io/guide/theming
-// @use '@angular/material'as mat;
-// // Plus imports for other components in your app.
-
-// // Include the common styles for Angular Material. We include this here so that you only
-// // have to load a single css file for Angular Material in your app.
-// // Be sure that you only ever include this mixin once!
-// @include mat.core();
-
-// // Define the palettes for your theme using the Material Design palettes available in palette.scss
-// // (imported above). For each palette, you can optionally specify a default, lighter, and darker
-// // hue. Available color palettes: https://material.io/design/color/
-// $AdminTool-primary: mat.define-palette($AdminTool-palette, 500);
-// $AdminTool-accent: mat.define-palette($AdminTool-palette, 500);
-
-// // The warn palette is optional (defaults to red).
-// $AdminTool-warn: mat.define-palette(mat.$red-palette);
-
-// // Create the theme object. A theme consists of configurations for individual
-// // theming systems such as "color" or "typography".
-// $AdminTool-theme: mat.define-light-theme((color: (primary: $AdminTool-primary,
-//       accent: $AdminTool-accent,
-//       warn: $AdminTool-warn,
-//     )));
-
-// // Include theme styles for core and each component used in your app.
-// // Alternatively, you can import and @include the theme mixins for each component
-// // that you are using.
-// @include mat.all-component-themes($AdminTool-theme);
+// :root {
+//     --theme-light: #fff;
+//     --theme-dark: #000;
+//     --theme-grey: #F8F8F8;
+//     --theme-border-color: rgba(0, 0, 0, 0.08);
+//     --theme-dark-grey: #8B8B8B;
+//     --theme-overlay: rgba(0, 0, 0, 0.4);
+  
+//     .dark-theme {
+//       --theme-light: #000;
+//       --theme-dark: #fff;
+//       --theme-grey: #282a36;
+//       --theme-border-color: #282a36;
+//       --theme-dark-grey: #fff;
+//       --theme-overlay: rgba(98, 98, 98, 0.4);
+//     }
+//   }
+  
+  // .example {
+  //   color: var(--lightColor);
+  // }

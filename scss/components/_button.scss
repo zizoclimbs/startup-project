@@ -37,7 +37,7 @@
 .btn-outline-secondary {
   @include button-outline-variant($secondary);
 
-  &:visited {
-    color: $secondary;
-  }
+  // &:visited {
+  //   color: $secondary;
+  // }
 }
