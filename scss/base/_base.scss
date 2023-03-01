@@ -154,7 +154,7 @@ hr {
 // }
 
 
-//modal on rtl
+// modal on rtl
 .modal {
   .modal-header {
     .btn-close {
@@ -162,4 +162,16 @@ hr {
       margin: 0;
     }
   }
+}
+
+// reverse rtl
+.reverse-rtl {
+  @include when-inside-rtl {
+    transform: rotate(180deg);
+  }
+}
+
+// font size 12px
+.fs-12 {
+  font-size: 12px;
 }
