@@ -3,11 +3,11 @@
  */
  
  html {
-  &[dir='ltr'] {
+  &[dir='ltr'] body {
     font: normal 75% / 1.4 $text-font-stack !important;
   }
   
-  &[dir='rtl'] {
+  &[dir='rtl'] body {
     font: normal 75% / 1.4 $text-ar-font-stack !important;
   }
 }
@@ -19,11 +19,11 @@ body {
 // Extra large devices (large desktops, 1600px and up)
 @include media-breakpoint-up(lg) {
  html {
-   &[dir='ltr'] {
+   &[dir='ltr'] body {
      font: normal 87.5% / 1.4 $text-font-stack !important;
    }
 
-   &[dir='rtl'] {
+   &[dir='rtl'] body {
      font: normal 87.5% / 1.4 $text-ar-font-stack !important;
    }
  }
